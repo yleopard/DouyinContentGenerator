@@ -1,0 +1,6 @@
+@DouyinContentGenerator.API_HostAddress = http://localhost:5001
+
+GET {{DouyinContentGenerator.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

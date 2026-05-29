@@ -1,0 +1,11 @@
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\bin\Debug\net9.0\DouyinContentGenerator.Core.deps.json
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\bin\Debug\net9.0\DouyinContentGenerator.Core.dll
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\bin\Debug\net9.0\DouyinContentGenerator.Core.pdb
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\DouyinContentGenerator.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\DouyinContentGenerator.Core.AssemblyInfoInputs.cache
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\DouyinContentGenerator.Core.AssemblyInfo.cs
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\DouyinContentGenerator.Core.csproj.CoreCompileInputs.cache
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\DouyinContentGenerator.Core.dll
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\refint\DouyinContentGenerator.Core.dll
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\DouyinContentGenerator.Core.pdb
+D:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\obj\Debug\net9.0\ref\DouyinContentGenerator.Core.dll
