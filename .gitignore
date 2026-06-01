@@ -1,0 +1,39 @@
+# .NET
+bin/
+obj/
+*.user
+*.sln.docstates
+*.suo
+.vs/
+
+# Secrets
+secrets/
+.env
+*.secret
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / Logs
+logs/
+backups/
+*.log
+
+# Test
+TestResults/
+coverage/
+
+# NuGet
+*.nupkg

@@ -1,0 +1,28 @@
+﻿  正在确定要还原的项目…
+  所有项目均是最新的，无法还原。
+  DouyinContentGenerator.Core -> d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Core\bin\Debug\net9.0\DouyinContentGenerator.Core.dll
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(34,30): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(35,43): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(39,25): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(40,28): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(41,29): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(51,23): error CS0136: 无法在此范围中声明名为“request”的局部变量或参数，因为该名称在封闭局部范围中用于定义局部变量或参数 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(67,50): error CS1061: “HttpRequestMessage”未包含“BatchSize”的定义，并且找不到可接受第一个“HttpRequestMessage”类型参数的可访问扩展方法“BatchSize”(是否缺少 using 指令或程序集引用?) [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(67,69): error CS1061: “HttpRequestMessage”未包含“ReferenceImageUrl”的定义，并且找不到可接受第一个“HttpRequestMessage”类型参数的可访问扩展方法“ReferenceImageUrl”(是否缺少 using 指令或程序集引用?) [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+
+生成失败。
+
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(34,30): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(35,43): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(39,25): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(40,28): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(41,29): error CS0841: 本地变量“request”在声明之前无法使用 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(51,23): error CS0136: 无法在此范围中声明名为“request”的局部变量或参数，因为该名称在封闭局部范围中用于定义局部变量或参数 [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(67,50): error CS1061: “HttpRequestMessage”未包含“BatchSize”的定义，并且找不到可接受第一个“HttpRequestMessage”类型参数的可访问扩展方法“BatchSize”(是否缺少 using 指令或程序集引用?) [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\AI\ImageGenerators\TongyiWanxiangGenerator.cs(67,69): error CS1061: “HttpRequestMessage”未包含“ReferenceImageUrl”的定义，并且找不到可接受第一个“HttpRequestMessage”类型参数的可访问扩展方法“ReferenceImageUrl”(是否缺少 using 指令或程序集引用?) [d:\Projects\DouyinContentGenerator\src\DouyinContentGenerator.Infrastructure\DouyinContentGenerator.Infrastructure.csproj]
+    0 个警告
+    8 个错误
+
+已用时间 00:00:01.24
+
+有可用的工作负载更新。有关详细信息，请运行 `dotnet workload list`。

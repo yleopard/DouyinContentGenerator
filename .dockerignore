@@ -1,0 +1,14 @@
+**/bin
+**/obj
+**/.vs
+**/.vscode
+**/node_modules
+frontend/
+tests/
+docs/
+scripts/
+secrets/
+.git
+*.md
+.env
+.env.example

@@ -1047,7 +1047,8 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.2.0",
           "DouyinContentGenerator.Core": "1.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+          "StackExchange.Redis": "2.13.17"
         },
         "compile": {
           "bin/placeholder/DouyinContentGenerator.Infrastructure.dll": {}
@@ -2708,11 +2709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\DouyinContentGenerator.API.csproj",
+      "projectUniqueName": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\DouyinContentGenerator.API.csproj",
       "projectName": "DouyinContentGenerator.API",
-      "projectPath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\DouyinContentGenerator.API.csproj",
+      "projectPath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\DouyinContentGenerator.API.csproj",
       "packagesPath": "C:\\Users\\47014\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\obj\\",
+      "outputPath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2737,11 +2738,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj": {
-              "projectPath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj"
+            "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj": {
+              "projectPath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj"
             },
-            "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Infrastructure\\DouyinContentGenerator.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Infrastructure\\DouyinContentGenerator.Infrastructure.csproj"
+            "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Infrastructure\\DouyinContentGenerator.Infrastructure.csproj": {
+              "projectPath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Infrastructure\\DouyinContentGenerator.Infrastructure.csproj"
             }
           }
         }

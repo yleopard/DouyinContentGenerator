@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj": {}
+    "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj": {
+    "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj",
+        "projectUniqueName": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj",
         "projectName": "DouyinContentGenerator.Core",
-        "projectPath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj",
+        "projectPath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\DouyinContentGenerator.Core.csproj",
         "packagesPath": "C:\\Users\\47014\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\obj\\",
+        "outputPath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

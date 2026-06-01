@@ -1,0 +1,1 @@
+using Npgsql; try { using var conn = new Npgsql.NpgsqlConnection(\"Host=localhost;Database=douyin_content;Username=postgres;Password=test123;SSL Mode=Disable\"); conn.Open(); Console.WriteLine(\"CONNECTED: \" + conn.State); } catch(Exception e) { Console.WriteLine(\"FAILED: \" + e.Message); }  

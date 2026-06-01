@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QPAEaa6cros=",
+  "dgSpecHash": "lSIGqmTbxuk=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\DouyinContentGenerator.API.csproj",
+  "projectFilePath": "d:\\Projects\\DouyinContentGenerator\\src\\DouyinContentGenerator.API\\DouyinContentGenerator.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\47014\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\47014\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

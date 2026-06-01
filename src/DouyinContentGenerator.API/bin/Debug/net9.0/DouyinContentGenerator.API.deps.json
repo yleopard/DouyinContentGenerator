@@ -697,7 +697,8 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.2.0",
           "DouyinContentGenerator.Core": "1.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+          "StackExchange.Redis": "2.13.17"
         },
         "runtime": {
           "DouyinContentGenerator.Infrastructure.dll": {

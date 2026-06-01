@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: douyin_content
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backups:/backups
+    secrets:
+      - db_password
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: src/DouyinContentGenerator.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=douyin_content;Username=postgres;PasswordFile=/run/secrets/db_password
+      - ConnectionStrings__Redis=redis:6379
+      - DataProtection__KeyPath=/run/secrets/dp_key
+    ports:
+      - "5000:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    secrets:
+      - dp_key
+      - ai_keys
+      - db_password
+    volumes:
+      - logs:/app/logs
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  backup:
+    image: postgres:16
+    environment:
+      PGPASSWORD_FILE: /run/secrets/db_password
+    volumes:
+      - ./scripts/backup.sh:/backup.sh:ro
+      - ./backups:/backups
+    secrets:
+      - db_password
+    entrypoint: ["/bin/bash", "/backup.sh"]
+    depends_on:
+      - postgres
+    restart: "no"
+    profiles:
+      - backup
+
+volumes:
+  postgres_data:
+  redis_data:
+  logs:
+
+secrets:
+  db_password:
+    file: ./secrets/db_password.txt
+  dp_key:
+    file: ./secrets/dp_key.txt
+  ai_keys:
+    file: ./secrets/ai_keys.json

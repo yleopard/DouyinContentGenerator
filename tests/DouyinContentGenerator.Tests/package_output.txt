@@ -1,0 +1,23 @@
+  正在确定要还原的项目…
+  Writing C:\Users\47014\AppData\Local\Temp\tmppkgb3r.tmp
+info : X.509 证书链验证将使用 .NET 选择的默认信任存储进行代码签名。
+info : X.509 证书链验证将使用 .NET 选择的默认信任存储进行时间戳。
+info : 正在将包“Microsoft.EntityFrameworkCore.InMemory”的 PackageReference 添加到项目“d:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\DouyinContentGenerator.Tests.csproj”。
+info :   CACHE https://repo.huaweicloud.com/artifactory/api/nuget/v3/nuget-remote/registration-semver2/microsoft.entityframeworkcore.inmemory/index.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.inmemory/index.json
+info :   CACHE https://repo.huaweicloud.com/artifactory/api/nuget/v3/nuget-remote/registration-semver2/microsoft.entityframeworkcore.inmemory/page/0.0.1-alpha/3.1.2.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.inmemory/page/0.0.1-alpha/3.1.2.json
+info :   CACHE https://repo.huaweicloud.com/artifactory/api/nuget/v3/nuget-remote/registration-semver2/microsoft.entityframeworkcore.inmemory/page/3.1.3/6.0.0-preview.6.21352.1.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.inmemory/page/3.1.3/6.0.0-preview.6.21352.1.json
+info :   CACHE https://repo.huaweicloud.com/artifactory/api/nuget/v3/nuget-remote/registration-semver2/microsoft.entityframeworkcore.inmemory/page/6.0.0-preview.7.21378.4/7.0.17.json
+info :   CACHE https://repo.huaweicloud.com/artifactory/api/nuget/v3/nuget-remote/registration-semver2/microsoft.entityframeworkcore.inmemory/page/7.0.18/9.0.15.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.inmemory/page/6.0.0-preview.7.21378.4/7.0.17.json
+info :   CACHE https://repo.huaweicloud.com/artifactory/api/nuget/v3/nuget-remote/registration-semver2/microsoft.entityframeworkcore.inmemory/page/9.0.16/11.0.0-preview.4.26230.115.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.inmemory/page/7.0.18/9.0.15.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.inmemory/page/9.0.16/11.0.0-preview.4.26230.115.json
+info : 正在还原 d:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\DouyinContentGenerator.Tests.csproj 的包...
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/vulnerability.update.json
+error: NU1202: 包 Microsoft.EntityFrameworkCore.InMemory 10.0.8 与 net9.0 (.NETCoreApp,Version=v9.0) 不兼容。 包 Microsoft.EntityFrameworkCore.InMemory 10.0.8 支持: net10.0 (.NETCoreApp,Version=v10.0)
+error: 包“Microsoft.EntityFrameworkCore.InMemory”与项目“d:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\DouyinContentGenerator.Tests.csproj”中的“all”框架不兼容。

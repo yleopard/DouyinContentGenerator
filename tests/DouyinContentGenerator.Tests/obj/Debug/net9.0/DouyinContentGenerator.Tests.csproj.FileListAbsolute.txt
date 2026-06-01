@@ -472,3 +472,4 @@ D:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\obj\Debug\
 D:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\obj\Debug\net9.0\DouyinContentGenerator.Tests.pdb
 D:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\obj\Debug\net9.0\DouyinContentGenerator.Tests.genruntimeconfig.cache
 D:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\obj\Debug\net9.0\ref\DouyinContentGenerator.Tests.dll
+d:\Projects\DouyinContentGenerator\tests\DouyinContentGenerator.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
